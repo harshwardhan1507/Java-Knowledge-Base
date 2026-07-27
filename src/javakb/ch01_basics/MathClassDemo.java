@@ -1,42 +1,46 @@
-/*
-Math.max(a,b,c,...) -> find maximum value
-Math.min(a,b,c,...)-> find minimum value
-Math.abs(a)-> gives the absolute value , works like modulus
-Math.sqrt(a) -> return the square root
-Math.pow(a,b) -> return a to the power of b
-Math.round() -> round the number to whole number
-Math.ceil() -> return the highest whole number of the float number
-Math.floor() -> return the lowest whole number of the float number
-Math.random() -> return a random number between 0 and 1 , return a decimal number
- */
-class MathClassDemo{
-    public static void main(String[] args) {
-        int max = Math.max(4,78);
-        System.out.println(" Max of (4,78) : " + max);
+package javakb.ch01_basics;
 
-        int min = Math.min(4,78);
-        System.out.println(" Min of (4,78) : " + min);
+/**
+ * MathClassDemo demonstrates java.lang.Math utility functions.
+ * 
+ * Featured Methods:
+ * - Math.max(a, b): Returns the maximum of two numbers
+ * - Math.min(a, b): Returns the minimum of two numbers
+ * - Math.abs(a): Returns the absolute value
+ * - Math.sqrt(a): Returns the square root as double
+ * - Math.pow(a, b): Returns a raised to the power of b as double
+ * - Math.round(a): Rounds double/float to nearest long/int
+ * - Math.ceil(a): Rounds up to the nearest whole double
+ * - Math.floor(a): Rounds down to the nearest whole double
+ * - Math.random(): Returns a random double in range [0.0, 1.0)
+ */
+public class MathClassDemo {
+    public static void main(String[] args) {
+        int max = Math.max(4, 78);
+        System.out.println("Max of (4, 78): " + max);
+
+        int min = Math.min(4, 78);
+        System.out.println("Min of (4, 78): " + min);
 
         int abs = Math.abs(-23);
-        System.out.println(" abs 0f (-23) : " + abs);
+        System.out.println("Absolute of (-23): " + abs);
 
-        double sqrt = Math.sqrt(2); // returns double type
-        System.out.println(" sqrt 2 (2) : " + sqrt);
+        double sqrt = Math.sqrt(16.0); // Returns 4.0
+        System.out.println("Square root of (16.0): " + sqrt);
 
-        double power =  Math.pow(2,3); // returns double type
-        System.out.println(" power of 2 (3) : " + power);
+        double power = Math.pow(2, 3); // Returns 8.0
+        System.out.println("2 to the power of 3: " + power);
 
-        double round = Math.round(3.14); // returns double type
-        System.out.println(" round 4 (4.58) : " + round);
+        long round = Math.round(3.14); // Returns 3
+        System.out.println("Math.round(3.14): " + round);
 
-        double ceil =  Math.ceil(3.14); // returns double type
-        System.out.println(" ceil  (3.14) : " + ceil);
+        double ceil = Math.ceil(3.14); // Returns 4.0
+        System.out.println("Math.ceil(3.14): " + ceil);
 
-        double floor =  Math.floor(4.78); // returns double type
-        System.out.println(" floor  (4.78) : " + floor);
+        double floor = Math.floor(4.78); // Returns 4.0
+        System.out.println("Math.floor(4.78): " + floor);
 
-        double random =  Math.random(); // returns double type
-        System.out.println(" random  (random) : " + random);
-
+        double random = Math.random(); // Returns double between 0.0 and 1.0
+        System.out.println("Math.random(): " + random);
     }
 }

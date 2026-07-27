@@ -1,28 +1,35 @@
-// for user input we import java.util package and use its Scanner class
+package javakb.ch01_basics;
+
 import java.util.Scanner;
+
 public class UserInput {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); // you could use any valid name instead of sc , but i like using sc so i will stick with it
-        System.out.println("user please input the following");
-        System.out.print("Enter a number : ");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("User, please input the following:");
+
+        System.out.print("Enter an integer: ");
         int x = sc.nextInt();
-        System.out.print("enter a decimal number : ");
+
+        System.out.print("Enter a decimal number: ");
         double y = sc.nextDouble();
-        System.out.print("enter a boolean (true/false) : ");
-        boolean bool =  sc.nextBoolean();
-        System.out.print("enter a character : ");
+
+        System.out.print("Enter a boolean (true/false): ");
+        boolean bool = sc.nextBoolean();
+
+        System.out.print("Enter a single character: ");
         char ch = sc.next().charAt(0);
-        sc.nextLine(); // cleaning the scanner so it can input the string
-        System.out.print("enter a string : ");
+
+        sc.nextLine(); // Flushing leftover newline buffer before reading string line!
+        System.out.print("Enter a full string: ");
         String str = sc.nextLine();
 
-        System.out.println("here are the details entered");
-        System.out.println("number is : " + x);
-        System.out.println("decimal is : " + y);
-        System.out.println("boolean  is : " + bool);
-        System.out.println("character is : " + ch);
-        System.out.println("string  is : " + str);
-        sc.close(); // good practise to close scanner when its done
-        // you should clean scanner using sc.nextLine() when inputting a string after number and vice versa
+        System.out.println("\n--- Entered Details ---");
+        System.out.println("Integer: " + x);
+        System.out.println("Decimal: " + y);
+        System.out.println("Boolean: " + bool);
+        System.out.println("Character: " + ch);
+        System.out.println("String: " + str);
+
+        sc.close(); // Good practice to close Scanner resource
     }
 }

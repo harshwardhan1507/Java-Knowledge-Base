@@ -1,0 +1,13 @@
+{
+	"id": "mindelixir-mindmap",
+	"name": "Mind Elixir Mind Map",
+	"version": "3.2.1",
+	"minAppVersion": "1.7.2",
+	"description": "A mind map plugin powered by Mind Elixir.",
+	"author": "Dexter Chow",
+	"authorUrl": "https://github.com/SSShooter",
+	"fundingUrl": {
+		"GitHub Sponsor": "https://github.com/sponsors/SSShooter"
+	},
+	"isDesktopOnly": false
+}

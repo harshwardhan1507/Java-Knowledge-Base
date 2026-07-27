@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "8c99ed90bef36569",
+    "id": "087004ff4d2dc644",
     "type": "split",
     "children": [
       {
-        "id": "e32ff64c4a5e6a7b",
+        "id": "91f13c2e3c3956ab",
         "type": "tabs",
         "children": [
           {
-            "id": "016713f37c733dd9",
+            "id": "ae828e9a8121ff8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/java/ch12_collections/01_list.md",
+                "file": "java/ch12_collections/01_list.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4ea4fefa4df196a1",
+    "id": "41377c3919205b29",
     "type": "split",
     "children": [
       {
-        "id": "f7c9849a5eaf4f10",
+        "id": "e9fdb00b66ca3512",
         "type": "tabs",
         "children": [
           {
-            "id": "acecec9113c5be74",
+            "id": "75551f42f7602655",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +48,12 @@
             }
           },
           {
-            "id": "be3ae82595cb0e51",
+            "id": "7239942e83c57753",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "de122b7c0e7d77eb",
+            "id": "27c213047e4845b5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,52 +78,52 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 300
   },
   "right": {
-    "id": "7a8935e5b3cfb3de",
+    "id": "73e4c8ffe6a98911",
     "type": "split",
     "children": [
       {
-        "id": "8660625ea1027759",
+        "id": "1d7399246c04201b",
         "type": "tabs",
-        "dimension": 58.02469135802469,
+        "dimension": 59.38271604938271,
         "children": [
           {
-            "id": "59d4e6795fdd5d1c",
+            "id": "c8f158053d6ea885",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/java/ch01_basics.md",
+                "file": "dsa/space-time complexity/recursive_time_space_complexity.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ch01_basics"
+              "title": "Backlinks for recursive_time_space_complexity"
             }
           },
           {
-            "id": "bf56a2924a80655f",
+            "id": "67c2794bd5ed0576",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/com/learning/java/ch01_basics/README.md",
+                "file": "dsa/space-time complexity/recursive_time_space_complexity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from recursive_time_space_complexity"
             }
           },
           {
-            "id": "a57822b9a8865e58",
+            "id": "e585e841030432f8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,7 +138,7 @@
             }
           },
           {
-            "id": "69647023c56c66dc",
+            "id": "b28709e8b1a7f317",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -152,13 +152,13 @@
             }
           },
           {
-            "id": "20cb5fc3dfbd8e6c",
+            "id": "ea3bd6fcfcd59da5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/java/ch12_collections/01_list.md",
-                "followCursor": true,
+                "file": "java/ch12_collections/01_list.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -170,12 +170,12 @@
         "currentTab": 4
       },
       {
-        "id": "b00d2267d8eab33a",
+        "id": "23e337e3baa30739",
         "type": "tabs",
-        "dimension": 41.97530864197531,
+        "dimension": 40.617283950617285,
         "children": [
           {
-            "id": "c29348449c626e3e",
+            "id": "1b0d8e870e7ec8a9",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -199,44 +199,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
+      "omnisearch:Omnisearch": false,
       "mindelixir-mindmap:Open as mind map": false
     }
   },
-  "active": "016713f37c733dd9",
+  "active": "ae828e9a8121ff8c",
   "lastOpenFiles": [
-    "README.md",
-    "docs/java/ch12_collections/03_queue.md",
-    "docs/java/ch12_collections/02_set.md",
-    "docs/java/ch02_controlflow.md",
-    "docs/java/ch04_methods.md",
-    "src/javakb/ch04_methods/MethodOverloading.java",
-    "out/production/oopspractise/javakb/ch04_methods/ReturnValues.class",
-    "src/javakb/ch04_methods/ReturnValues.java",
-    "out/production/oopspractise/javakb/ch04_methods/MethodParameters.class",
-    "out/production/oopspractise/javakb/ch04_methods/BasicMethod.class",
-    "out/production/oopspractise/javakb/ch04_methods",
-    "src/javakb/ch04_methods/MethodParameters.java",
-    "src/javakb/ch04_methods/BasicMethod.java~",
-    "out/production/oopspractise/javakb/ch12_collections/list/ArrayListDemo.class",
-    "out/production/oopspractise/javakb/ch12_collections/queue/DequeDemo.class",
-    "docs/dsa/space-time complexity/time_space_complexity.md",
-    "docs/dsa/space-time complexity/recursive_time_space_complexity.md",
-    "docs/java/ch12_collections/01_list.md",
-    "docs/java/ch12_collections.md",
-    "docs/java/ch01_basics.md",
-    "docs/java/projects/advanced.md",
-    "docs/java/projects/beginner.md",
-    "docs/java/projects/intermediate.md",
-    "docs/java/ch03_loops.md",
-    "Excalidraw/Drawing 2026-06-21 12.28.48.excalidraw.md",
-    "Untitled.canvas",
-    "[[.md",
-    "ch02_control_flow.md",
-    "src/javakb/ch01_basics.md",
-    "docs/java/ch06_strings.md",
-    "src/com/learning/java/ch01_basics/README.md",
-    "src/com/learning/java/projects/intermediate/README.md",
-    "src/com/learning/java/projects/beginner/README.md"
+    "java/ch17_concurrency.md",
+    "java/ch16_datetime.md",
+    "java/ch15_generics.md",
+    "java/ch14_filehandling.md",
+    "java/ch13_exceptions.md",
+    "java/ch12_collections.md",
+    "java/ch11_relationships.md",
+    "java/ch04_methods.md",
+    "java/ch05_arrays.md",
+    "java/ch07_oop.md",
+    "java/ch08_inheritance.md",
+    "java/ch06_strings.md",
+    "java/ch03_loops.md",
+    "java/ch02_controlflow.md",
+    "java/ch01_basics.md",
+    "java/ch12_collections/01_list.md"
   ]
 }

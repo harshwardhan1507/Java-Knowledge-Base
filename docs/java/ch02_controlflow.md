@@ -211,15 +211,15 @@ If `list` is `null`, `list.size()` is **never called**, so you avoid a `NullPoin
 
 ## Recap: Which tool for which job?
 
-|Situation|Use|
-|---|---|
-|One condition, one action|`if`|
-|Exactly two outcomes|`if-else`|
-|Several ranges/conditions, in order|`else-if` ladder|
-|A decision only relevant after another is true|nested `if` (or combine with `&&`)|
-|Matching one variable against many exact values|`switch`|
-|Switch but you want a returned value, no fall-through risk|`switch` expression (`->`)|
-|Simple true/false → pick one of two values|ternary `?:`|
-|Combining multiple boolean conditions into one|`&&`, `\|`, `!`|
+| Situation                                                  | Use                                |
+| ---------------------------------------------------------- | ---------------------------------- |
+| One condition, one action                                  | `if`                               |
+| Exactly two outcomes                                       | `if-else`                          |
+| Several ranges/conditions, in order                        | `else-if` ladder                   |
+| A decision only relevant after another is true             | nested `if` (or combine with `&&`) |
+| Matching one variable against many exact values            | `switch`                           |
+| Switch but you want a returned value, no fall-through risk | `switch` expression (`->`)         |
+| Simple true/false → pick one of two values                 | ternary `?:`                       |
+| Combining multiple boolean conditions into one             | `&&`, `\|`, `!`                    |
 
 

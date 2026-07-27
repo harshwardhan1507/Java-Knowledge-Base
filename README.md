@@ -59,7 +59,7 @@ All documentation is stored inside the `docs/` folder to keep the source tree cl
 | **ch03** | Loops (While, For, Nested)                  | [Notes](docs/java/ch03_loops.md)         | [Code](src/javakb/ch03_loops)               | `[x]`  |
 | **ch04** | Methods (Scope, Overloading, Varargs)       | [Notes](docs/java/ch04_methods.md)       | [Code](src/javakb/ch04_methods)             | `[ ]`  |
 | **ch05** | Arrays (1D, 2D, Linear Search)              | [Notes](docs/java/ch05_arrays.md)        | [Code](src/javakb/ch05_arrays)              | `[ ]`  |
-| **ch06** | Strings (Manipulation, Builders)            | [Notes](docs/java/ch06_strings.md)       | [Code](src/javakb/ch06_strings)             | `[ ]`  |
+| **ch06** | Strings (Manipulation, Builders)            | [Notes](docs/java/ch06_strings.md)       | [Code](src/javakb/ch06_strings)             | `[x]`  |
 | **ch07** | Object-Oriented Basics (Classes, Statics)   | [Notes](docs/java/ch07_oop.md)           | [Code](src/javakb/ch07_oop)                 | `[ ]`  |
 | **ch08** | Inheritance (Subclassing, Super, Overrides) | [Notes](docs/java/ch08_inheritance.md)   | [Code](src/javakb/ch08_inheritance)         | `[ ]`  |
 | **ch09** | Abstraction (Interfaces, Polymorphism)      | [Notes](docs/java/ch09_abstraction.md)   | [Code](src/javakb/ch09_abstraction)         | `[ ]`  |

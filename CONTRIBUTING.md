@@ -25,7 +25,7 @@ To ensure smooth collaboration, please follow these initial steps:
 1. **Fork the Repository**: Click the **Fork** button at the top right of this repository to create your own copy.
 2. **Clone Your Fork**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/java-knowledge-base.git
+   git clone https://github.com/harshwardhan1507/java-knowledge-base.git
    cd java-knowledge-base
    ```
 3. **Create a Feature Branch**: Use a descriptive branch name for your work:

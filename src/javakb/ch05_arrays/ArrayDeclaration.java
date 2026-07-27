@@ -61,6 +61,7 @@ public class ArrayDeclaration {
         System.out.println("\n--- 5. Out of Bounds Exception Trap ---");
         try {
             // Trying to access index equal to array length causes ArrayIndexOutOfBoundsException
+            @SuppressWarnings("unused")
             int invalidAccess = marks[marks.length]; 
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Caught Expected Error: " + e.getMessage());

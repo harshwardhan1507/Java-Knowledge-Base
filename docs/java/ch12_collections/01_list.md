@@ -19,14 +19,14 @@ String item = list.get(1); // Index-based access
 ```
 
 ### Common List Methods:
-| Method | Description | Time Complexity (ArrayList) |
-|---|---|---|
-| `add(E e)` | Appends element to the end of the list | Amortized $O(1)$ |
-| `add(int index, E element)` | Inserts element at a specific index | $O(N)$ (due to element shifting) |
-| `get(int index)` | Retrieves the element at the specified index | $O(1)$ |
-| `set(int index, E element)` | Replaces the element at the specified index | $O(1)$ |
-| `remove(int index)` | Removes the element at the specified index | $O(N)$ (due to element shifting) |
-| `indexOf(Object o)` | Returns the index of the first occurrence of the element | $O(N)$ |
+| Method                      | Description                                              | Time Complexity (ArrayList)      |
+| --------------------------- | -------------------------------------------------------- | -------------------------------- |
+| `add(E e)`                  | Appends element to the end of the list                   | Amortized $O(1)$                 |
+| `add(int index, E element)` | Inserts element at a specific index                      | $O(N)$ (due to element shifting) |
+| `get(int index)`            | Retrieves the element at the specified index             | $O(1)$                           |
+| `set(int index, E element)` | Replaces the element at the specified index              | $O(1)$                           |
+| `remove(int index)`         | Removes the element at the specified index               | $O(N)$ (due to element shifting) |
+| `indexOf(Object o)`         | Returns the index of the first occurrence of the element | $O(N)$                           |
 
 ---
 

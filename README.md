@@ -38,10 +38,10 @@ graph TD
 ## 🎯 Progress Tracker
 
 - [x] **Phase 1: Procedural Fundamentals** (Chapters 01 - 06)
-- [ ] **Phase 2: Object-Oriented Programming** (Chapters 07 - 11)
-- [ ] **Phase 3: Core API & Ecosystem** (Chapters 12 - 16)
-- [ ] **Phase 4: Advanced Java Mechanics** (Chapter 17 & Projects)
-- [ ] **Phase 5: Data Structures & Algorithms** (Complexity Analysis & Core DSA)
+- [🔄] **Phase 2: Object-Oriented Programming** (Chapters 07 - 11 — OOP Basics Started)
+- [🔄] **Phase 3: Core API & Ecosystem** (Chapters 12 - 16 — Collections Framework Active)
+- [🔄] **Phase 4: Advanced Java Mechanics & Projects** (Beginner & Intermediate Projects Built)
+- [🔄] **Phase 5: Data Structures & Algorithms** (Complexity Analysis & Core DSA Completed)
 - [ ] **Phase 6: Object-Oriented Design Patterns** (Creational, Structural, Behavioral)
 
 ---
@@ -57,15 +57,15 @@ All documentation is stored inside the `docs/` folder to keep the source tree cl
 | **ch01** | Java Basics (Syntax, Printf, Input)         | [Notes](docs/java/ch01_basics.md)        | [Code](src/javakb/ch01_basics)              | `[x]`  |
 | **ch02** | Control Flow (If-Else, Switch)              | [Notes](docs/java/ch02_controlflow.md)   | [Code](src/javakb/ch02_controlflow)         | `[x]`  |
 | **ch03** | Loops (While, For, Nested)                  | [Notes](docs/java/ch03_loops.md)         | [Code](src/javakb/ch03_loops)               | `[x]`  |
-| **ch04** | Methods (Scope, Overloading, Varargs)       | [Notes](docs/java/ch04_methods.md)       | [Code](src/javakb/ch04_methods)             | `[ ]`  |
-| **ch05** | Arrays (1D, 2D, Linear Search)              | [Notes](docs/java/ch05_arrays.md)        | [Code](src/javakb/ch05_arrays)              | `[ ]`  |
+| **ch04** | Methods (Scope, Overloading, Varargs)       | [Notes](docs/java/ch04_methods.md)       | [Code](src/javakb/ch04_methods)             | `[x]`  |
+| **ch05** | Arrays (1D, 2D, Linear Search)              | [Notes](docs/java/ch05_arrays.md)        | [Code](src/javakb/ch05_arrays)              | `[x]`  |
 | **ch06** | Strings (Manipulation, Builders)            | [Notes](docs/java/ch06_strings.md)       | [Code](src/javakb/ch06_strings)             | `[x]`  |
-| **ch07** | Object-Oriented Basics (Classes, Statics)   | [Notes](docs/java/ch07_oop.md)           | [Code](src/javakb/ch07_oop)                 | `[ ]`  |
+| **ch07** | Object-Oriented Basics (Classes, Statics)   | [Notes](docs/java/ch07_oop.md)           | [Code](src/javakb/ch07_oop)                 | `[🔄]` |
 | **ch08** | Inheritance (Subclassing, Super, Overrides) | [Notes](docs/java/ch08_inheritance.md)   | [Code](src/javakb/ch08_inheritance)         | `[ ]`  |
 | **ch09** | Abstraction (Interfaces, Polymorphism)      | [Notes](docs/java/ch09_abstraction.md)   | [Code](src/javakb/ch09_abstraction)         | `[ ]`  |
 | **ch10** | Encapsulation (Accessors, Data Hiding)      | [Notes](docs/java/ch10_encapsulation.md) | [Code](src/javakb/ch10_encapsulation)       | `[ ]`  |
 | **ch11** | Object Relationships (Aggregation, Comp)    | [Notes](docs/java/ch11_relationships.md) | [Code](src/javakb/ch11_relationships)       | `[ ]`  |
-| **ch12** | Collections Framework (Lists, Maps)         | [Notes](docs/java/ch12_collections.md)   | [Code](src/javakb/ch12_collections)         | `[ ]`  |
+| **ch12** | Collections Framework (Lists, Maps, Sets)   | [Notes](docs/java/ch12_collections.md)   | [Code](src/javakb/ch12_collections)         | `[🔄]` |
 | **ch13** | Exception Handling (Try-Catch, Custom)      | [Notes](docs/java/ch13_exceptions.md)    | [Code](src/javakb/ch13_exceptions)          | `[ ]`  |
 | **ch14** | File Handling (Streams, Reader/Writer)      | [Notes](docs/java/ch14_filehandling.md)  | [Code](src/javakb/ch14_filehandling)        | `[ ]`  |
 | **ch15** | Generics (Type safety, Bounds)              | [Notes](docs/java/ch15_generics.md)      | [Code](src/javakb/ch15_generics)            | `[ ]`  |
@@ -78,13 +78,19 @@ All documentation is stored inside the `docs/` folder to keep the source tree cl
 
 Hands-on console applications categorized by complexity:
 
-📂 **Browse folder:** [Projects Source Code](src/javakb/projects/)
+📂 **Browse folder:** [Projects Source Code](src/javakb/projects/) | [Intermediate Projects README](src/javakb/projects/intermediate/README.md)
 
 | Level | Project | Description | Code Link | Specs Link |
 | :--- | :--- | :--- | :--- | :--- |
 | **Beginner** | **Compound Interest Calculator** | Computes compound interest based on standard principal and rate user inputs. | [Code](src/javakb/projects/beginner/CompInterest.java) | [Doc Notes](docs/java/projects/beginner.md) |
-| **Intermediate** | **Console Vending Machine** | A detailed retail simulation including inventory state updates, payment validations, and change calculations. | [Code](src/javakb/projects/intermediate/VendingMachine.java) | [Doc Notes](docs/java/projects/intermediate.md) |
-| **Advanced** | *Placeholder* | Future threaded file-storage projects | [Code](src/javakb/projects/advanced) | [Doc Notes](docs/java/projects/advanced.md) |
+| **Beginner** | **Console Calculator** | Multi-function CLI calculator utilizing static methods and varargs. | [Code](src/javakb/ch04_methods/ConsoleCalculator.java) | [Doc Notes](docs/java/projects/beginner.md) |
+| **Beginner** | **Student Marks Analyzer** | Array statistics analyzer (total, average, max, min, pass/fail thresholds). | [Code](src/javakb/ch05_arrays/StudentMarksAnalyzer.java) | [Doc Notes](docs/java/projects/beginner.md) |
+| **Intermediate** | **🎓 Student Management System** | Full CRUD student management application built with `ArrayList`, custom sorting (Name/GPA), and reversed views. | [Code](src/javakb/projects/intermediate/studentmanagement/) | [Project README](src/javakb/projects/intermediate/studentmanagement/readme.md) |
+| **Intermediate** | **Console Vending Machine** | Retail vending machine simulation with inventory tracking, payment validation, and change calculation. | [Code](src/javakb/projects/intermediate/VendingMachine.java) | [Doc Notes](docs/java/projects/intermediate.md) |
+| **Intermediate** | **Inventory Management System** | Multi-array inventory tracking application with low-stock alert monitoring. | [Code](src/javakb/ch05_arrays/InventoryManagement.java) | [Doc Notes](docs/java/projects/intermediate.md) |
+| **Intermediate** | **Text Analyzer Project** | Text metrics analyzer with word/character counts, vowel breakdown, and palindrome validation. | [Code](src/javakb/ch06_strings/TextAnalyzerProject.java) | [Doc Notes](docs/java/projects/intermediate.md) |
+| **Advanced** | *Placeholder* | Future multi-threaded file storage & concurrency applications | [Code](src/javakb/projects/advanced) | [Doc Notes](docs/java/projects/advanced.md) |
+
 
 ---
 

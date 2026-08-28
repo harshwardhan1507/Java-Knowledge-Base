@@ -60,7 +60,7 @@ All documentation is stored inside the `docs/` folder to keep the source tree cl
 | **ch04** | Methods (Scope, Overloading, Varargs)       | [Notes](docs/java/ch04_methods.md)       | [Code](src/javakb/ch04_methods)             | `[x]`  |
 | **ch05** | Arrays (1D, 2D, Linear Search)              | [Notes](docs/java/ch05_arrays.md)        | [Code](src/javakb/ch05_arrays)              | `[x]`  |
 | **ch06** | Strings (Manipulation, Builders)            | [Notes](docs/java/ch06_strings.md)       | [Code](src/javakb/ch06_strings)             | `[x]`  |
-| **ch07** | Object-Oriented Basics (Classes, Statics)   | [Notes](docs/java/ch07_oop.md)           | [Code](src/javakb/ch07_oop)                 | `[🔄]` |
+| **ch07** | Object-Oriented Basics (Classes, Statics)   | [Notes](docs/java/ch07_oop.md)           | [Code](src/javakb/ch07_oop)                 | `[x]`  |
 | **ch08** | Inheritance (Subclassing, Super, Overrides) | [Notes](docs/java/ch08_inheritance.md)   | [Code](src/javakb/ch08_inheritance)         | `[ ]`  |
 | **ch09** | Abstraction (Interfaces, Polymorphism)      | [Notes](docs/java/ch09_abstraction.md)   | [Code](src/javakb/ch09_abstraction)         | `[ ]`  |
 | **ch10** | Encapsulation (Accessors, Data Hiding)      | [Notes](docs/java/ch10_encapsulation.md) | [Code](src/javakb/ch10_encapsulation)       | `[ ]`  |
@@ -82,13 +82,14 @@ Hands-on console applications categorized by complexity:
 
 | Level | Project | Description | Code Link | Specs Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **Beginner** | **Compound Interest Calculator** | Computes compound interest based on standard principal and rate user inputs. | [Code](src/javakb/projects/beginner/CompInterest.java) | [Doc Notes](docs/java/projects/beginner.md) |
-| **Beginner** | **Console Calculator** | Multi-function CLI calculator utilizing static methods and varargs. | [Code](src/javakb/ch04_methods/ConsoleCalculator.java) | [Doc Notes](docs/java/projects/beginner.md) |
-| **Beginner** | **Student Marks Analyzer** | Array statistics analyzer (total, average, max, min, pass/fail thresholds). | [Code](src/javakb/ch05_arrays/StudentMarksAnalyzer.java) | [Doc Notes](docs/java/projects/beginner.md) |
+| **Beginner** | **💰 Compound Interest Calculator** | Computes compound interest based on standard principal and rate user inputs. | [Code](src/javakb/projects/beginner/CompInterest.java) | [Doc Notes](docs/java/projects/beginner.md#1--compound-interest-calculator) |
+| **Beginner** | **🧮 Console Calculator** | Multi-function CLI calculator utilizing static methods and varargs. | [Code](src/javakb/projects/beginner/ConsoleCalculator.java) | [Doc Notes](docs/java/projects/beginner.md#2--console-calculator) |
+| **Beginner** | **📊 Student Marks Analyzer** | Array statistics analyzer (total, average, max, min, pass/fail thresholds). | [Code](src/javakb/projects/beginner/StudentMarksAnalyzer.java) | [Doc Notes](docs/java/projects/beginner.md#3--student-marks-analyzer) |
 | **Intermediate** | **🎓 Student Management System** | Full CRUD student management application built with `ArrayList`, custom sorting (Name/GPA), and reversed views. | [Code](src/javakb/projects/intermediate/studentmanagement/) | [Project README](src/javakb/projects/intermediate/studentmanagement/readme.md) |
-| **Intermediate** | **Console Vending Machine** | Retail vending machine simulation with inventory tracking, payment validation, and change calculation. | [Code](src/javakb/projects/intermediate/VendingMachine.java) | [Doc Notes](docs/java/projects/intermediate.md) |
-| **Intermediate** | **Inventory Management System** | Multi-array inventory tracking application with low-stock alert monitoring. | [Code](src/javakb/ch05_arrays/InventoryManagement.java) | [Doc Notes](docs/java/projects/intermediate.md) |
-| **Intermediate** | **Text Analyzer Project** | Text metrics analyzer with word/character counts, vowel breakdown, and palindrome validation. | [Code](src/javakb/ch06_strings/TextAnalyzerProject.java) | [Doc Notes](docs/java/projects/intermediate.md) |
+| **Intermediate** | **🏛️ Apex Banking System** | Full console banking application with constructor chaining, static vault tracking, inter-account transfers, and interest engines. | [Code](src/javakb/projects/intermediate/bankingsystem/) | [Project README](src/javakb/projects/intermediate/bankingsystem/readme.md) |
+| **Intermediate** | **🛒 Console Vending Machine** | Retail vending machine simulation with inventory tracking, payment validation, and change calculation. | [Code](src/javakb/projects/intermediate/VendingMachine.java) | [Doc Notes](docs/java/projects/intermediate.md#3--console-vending-machine) |
+| **Intermediate** | **📦 Inventory Management System** | Multi-array inventory tracking application with low-stock alert monitoring. | [Code](src/javakb/projects/intermediate/InventoryManagement.java) | [Doc Notes](docs/java/projects/intermediate.md#4--inventory-management-system) |
+| **Intermediate** | **🔤 Text Analyzer Project** | Text metrics analyzer with word/character counts, vowel breakdown, and palindrome validation. | [Code](src/javakb/projects/intermediate/TextAnalyzer.java) | [Doc Notes](docs/java/projects/intermediate.md#5--text-analyzer-project) |
 | **Advanced** | *Placeholder* | Future multi-threaded file storage & concurrency applications | [Code](src/javakb/projects/advanced) | [Doc Notes](docs/java/projects/advanced.md) |
 
 

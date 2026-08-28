@@ -11,9 +11,10 @@ These applications are designed to solidify Object-Oriented Programming (OOP), J
 | Project Name | Primary Focus & Features | Code Link | Documentation |
 | :--- | :--- | :--- | :--- |
 | **🎓 Student Management System** | Full CRUD student management, `ArrayList`, custom sorting by Name & GPA, list reversal, menu CLI. | [Source Folder](studentmanagement/) | [Project README](studentmanagement/readme.md) |
-| **🛒 Console Vending Machine** | Retail item purchasing, inventory updates, coin validation, exact change calculation. | [`VendingMachine.java`](VendingMachine.java) | [Doc Notes](../../../../docs/java/projects/intermediate.md) |
-| **📦 Inventory Management System** | Chapter 05 Array project: parallel array inventory tracking, low-stock threshold alerts. | [`InventoryManagement.java`](../../ch05_arrays/InventoryManagement.java) | [Doc Notes](../../../../docs/java/projects/intermediate.md) |
-| **🔤 Text Analyzer Project** | Chapter 06 String project: text metrics, word/char counts, vowel breakdown, palindrome check. | [`TextAnalyzerProject.java`](../../ch06_strings/TextAnalyzerProject.java) | [Doc Notes](../../../../docs/java/projects/intermediate.md) |
+| **🏛️ Apex Banking System** | Complete banking simulation with constructor chaining, static vault tracking, inter-account transfers, and interest engine. | [Source Folder](bankingsystem/) | [Project README](bankingsystem/readme.md) |
+| **🛒 Console Vending Machine** | Retail item purchasing, inventory updates, coin validation, exact change calculation. | [`VendingMachine.java`](VendingMachine.java) | [Doc Notes](../../../../docs/java/projects/intermediate.md#3--console-vending-machine) |
+| **📦 Inventory Management System** | Parallel array inventory tracking, low-stock threshold alerts. | [`InventoryManagement.java`](InventoryManagement.java) | [Doc Notes](../../../../docs/java/projects/intermediate.md#4--inventory-management-system) |
+| **🔤 Text Analyzer Project** | Text metrics, word/char counts, vowel breakdown, palindrome check. | [`TextAnalyzer.java`](TextAnalyzer.java) | [Doc Notes](../../../../docs/java/projects/intermediate.md#5--text-analyzer-project) |
 
 ---
 
@@ -27,8 +28,26 @@ javac -d out -sourcepath src src/javakb/projects/intermediate/studentmanagement/
 java -cp out javakb.projects.intermediate.studentmanagement.Main
 ```
 
-### 2. Console Vending Machine
+### 2. Apex Banking System
+```bash
+javac -d out -sourcepath src src/javakb/projects/intermediate/bankingsystem/*.java
+java -cp out javakb.projects.intermediate.bankingsystem.Main
+```
+
+### 3. Console Vending Machine
 ```bash
 javac -d out -sourcepath src src/javakb/projects/intermediate/VendingMachine.java
 java -cp out javakb.projects.intermediate.VendingMachine
+```
+
+### 4. Inventory Management System
+```bash
+javac -d out -sourcepath src src/javakb/projects/intermediate/InventoryManagement.java
+java -cp out javakb.projects.intermediate.InventoryManagement
+```
+
+### 5. Text Analyzer
+```bash
+javac -d out -sourcepath src src/javakb/projects/intermediate/TextAnalyzer.java
+java -cp out javakb.projects.intermediate.TextAnalyzer
 ```

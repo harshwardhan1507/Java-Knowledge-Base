@@ -19,22 +19,20 @@ This document catalogs beginner-level projects in the **Java Knowledge Base**. B
 ### 1. 💰 Compound Interest Calculator
 * **Location:** [`src/javakb/projects/beginner/CompInterest.java`](../../../src/javakb/projects/beginner/CompInterest.java)
 * **Description:** Console-based financial calculator that computes accrued compound interest using the formula:
-  \[
-  A = P \times \left(1 + \frac{r}{n}\right)^{n \times t}
-  \]
+  $$A = P \times \left(1 + \frac{r}{n}\right)^{n \times t}$$
 * **Key Topics:** `Scanner` input, `Math.pow()`, double floating-point arithmetic, variable declarations.
 
 ---
 
-### 2. 🧮 Console Calculator (Chapter 04 Mini-Project)
-* **Location:** [`src/javakb/ch04_methods/ConsoleCalculator.java`](../../../src/javakb/ch04_methods/ConsoleCalculator.java)
+### 2. 🧮 Console Calculator
+* **Location:** [`src/javakb/projects/beginner/ConsoleCalculator.java`](../../../src/javakb/projects/beginner/ConsoleCalculator.java)
 * **Description:** Menu-driven multi-purpose CLI calculator using static modular methods for core arithmetic operations and multi-operand varargs summation.
 * **Key Topics:** Static methods, method overloading, varargs (`double...`), zero-division validation, interactive `switch` menu loop.
 
 ---
 
-### 3. 📊 Student Marks Analyzer (Chapter 05 Mini-Project)
-* **Location:** [`src/javakb/ch05_arrays/StudentMarksAnalyzer.java`](../../../src/javakb/ch05_arrays/StudentMarksAnalyzer.java)
+### 3. 📊 Student Marks Analyzer
+* **Location:** [`src/javakb/projects/beginner/StudentMarksAnalyzer.java`](../../../src/javakb/projects/beginner/StudentMarksAnalyzer.java)
 * **Description:** Array-driven performance analyzer that processes student exam scores to calculate sum, average, max mark, min mark, and pass/fail distribution counts.
 * **Key Topics:** 1D Arrays, array traversal, linear min/max search, accumulator patterns, pass/fail threshold evaluation (40 marks).
 
@@ -50,10 +48,10 @@ javac -d out -sourcepath src src/javakb/projects/beginner/CompInterest.java
 java -cp out javakb.projects.beginner.CompInterest
 
 # Compile and run Console Calculator
-javac -d out -sourcepath src src/javakb/ch04_methods/ConsoleCalculator.java
-java -cp out javakb.ch04_methods.ConsoleCalculator
+javac -d out -sourcepath src src/javakb/projects/beginner/ConsoleCalculator.java
+java -cp out javakb.projects.beginner.ConsoleCalculator
 
 # Compile and run Student Marks Analyzer
-javac -d out -sourcepath src src/javakb/ch05_arrays/StudentMarksAnalyzer.java
-java -cp out javakb.ch05_arrays.StudentMarksAnalyzer
+javac -d out -sourcepath src src/javakb/projects/beginner/StudentMarksAnalyzer.java
+java -cp out javakb.projects.beginner.StudentMarksAnalyzer
 ```
